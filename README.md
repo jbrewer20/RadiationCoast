@@ -12,4 +12,4 @@ C++-only Unreal Engine 5 Gameplay Ability System foundation for a third-person a
 
 ## Integration
 
-The C++ module and project descriptor are being prepared for UE 5.8. The first slice deliberately has no content assets, maps, input setup, UI, or animation dependencies. The next implementation slice is a native rifle-butt melee ability that traces a short hit window and applies Gameplay Effect damage; weapon damage and the villagers' bullet resistance should be separate damage channels/effect rules.
+The C++ module and project descriptor are being prepared for UE 5.8. The first slice deliberately has no content assets, maps, input setup, UI, or animation dependencies. Guns are melee-only in the first playable slice: the core attack is a rifle-butt strike, with no firing, ammunition, reload, or bullet resistance system to implement. The teammate's warning that bullets barely affect the mutated villagers will be conveyed through dialogue. The next implementation slice is a native melee ability that traces a short hit window and applies Gameplay Effect damage.
